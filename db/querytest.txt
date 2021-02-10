@@ -1,0 +1,4 @@
+SELECT * FROM marks,coursedetail WHERE marks.CourseDetail_courseCode=coursedetail.CourseDetail_courseCode AND marks.Marks_courseSemester=4 AND marks.StudentDetail_studentId='152-15-5892'
+
+
+SELECT marks.StudentDetail_studentId,marks.CourseDetail_courseCode,marks.Marks_courseSemester,marks.Marks_GPA,coursedetail.CourseDetail_courseCredit FROM marks,coursedetail WHERE marks.CourseDetail_courseCode=coursedetail.CourseDetail_courseCode AND marks.Marks_courseSemester=4 AND marks.StudentDetail_studentId='152-15-5892'
